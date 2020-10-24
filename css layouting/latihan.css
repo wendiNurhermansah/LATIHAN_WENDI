@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*/..*/
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+	font: 20px/30px arial , sans-erif;
+	background-image: url(wen.png);
+	color: red;
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: violet;
+	border: 3px solid white;
+	z-index: 9999px; 
+}
+
+.container {
+
+	width: 980px;
+	margin: 100px auto;
+	background-color: yellow;
+	position: relative;
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	background-image: url(logo.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: 88888px;
+	position: absolute;
+	right: 0px;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 5px;
+}
+
+.header .judul {
+	font-size : 30px;
+	padding: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 5px;
+
+}
+
+.header a {
+	text-decoration: none;
+	color: black;
+	padding: 4px;
+}
+
+.header a:hover {
+	color: white;
+
+}
+
+.hero {
+	height: 350px;
+	background-image: url(iii.jpg);
+	background-size: cover;
+	background-position: 0 -300;
+	border-top: 8px solid red;
+	border-bottom: 8px solid blue;
+}
+
+.main {
+	width: 600px;
+	font: arial;
+	font-size: 15px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.main h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .penulis a {
+	color: blue;
+	text-decoration: none;
+}
+.main p {
+	margin-bottom: 25px;
+	font-size: 10px;
+}
+
+/*idbar*/
+.sidbar {
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidbar h3 {
+	font-weight: bold;
+	color: red;
+}
+
+
+.sidbar img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidbar p {
+	font-size: 8px;
+	color: blue;
+}
+.footer {
+	background-color: pink;
+
+}
+
+.footer .copy {
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+/*clarfix*/
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

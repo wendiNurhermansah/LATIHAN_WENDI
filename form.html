@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+	<style>
+		p {
+			color: navy;
+			font-size: 15px;
+		}
+		legend {
+			color: blue;
+			font: 20px;
+		}
+		textarea {
+			color: tomato;
+			font-size: 15px;
+		}
+		body {
+			background-color: orange;
+			font-family: arial;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<p><input type="text"></p>
+		<p><input type="password" required></p>
+		<p><input type="chekbox"></p>
+		<p><input type="radio"></p>
+		<p><input type="number" min="1" max="12"></p>
+		<p><textarea rows="8" cols="100">klik disini</textarea></p>
+		<p><input type="submit" value="ok"></p>
+
+		<p><button type="button">ok</button></p>
+
+		<p><button type="button" onclick="dosomthing();">apply</button></p>
+
+		<p>apa warna favoritemu?</p>
+		<select>
+			<option>kuning</option>
+			<option>merah</option>
+			<option>hijau</option>
+			<option>ungu</option>
+		</select>
+
+		<p> apa makanan favoritmu?</p>
+		<select>
+			<option>ciki</option>
+			<option>rendang</option>
+			<option>sate</option>
+			<option selected>bakwan</option>
+		</select>
+
+		<p>minuman favoritmu?</p>
+		<select>
+			
+			<optgroup label="jus jusan:">
+				<option>jus buah</option>
+				<option>jus alpukat</option>
+				<option>jus anggur</option>
+			</optgroup>
+
+			<optgroup label="jamu">
+				<option>kencur</option>
+				<option>patrawali</option>
+				<option>asem</option>
+			</optgroup>
+		</select>
+
+		<table>
+		<tr>
+			<td><label for="user">name</label></td>
+			<td><input type="text" name="user"></td>
+		</tr>
+
+		<tr>
+			<td><label for="pass">kata sandi</label></td>
+			<td><input type="password" name="pass"></td>
+		</tr>
+
+		</table>
+			<fieldset>
+				<legend>data diri</legend>
+<table>
+	<tr>
+		<td><label for="nama">nama:</label></td>
+		<td><input type="tex" name="nama"></td>
+	</tr>
+
+	<TR>
+		<td><label for="usia">usia:</label></td>
+		<td><input type="number" name="usia"></td>
+	</TR>
+
+</table>
+			</fieldset>
+		</p>
+
+	</form>
+
+</body>
+</html>

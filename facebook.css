@@ -1,0 +1,109 @@
+div {
+	width: 900px;
+	height: 900px;
+	background-color: lightblue;
+	margin: auto;
+}
+
+.satu {
+	width: 900px;
+	height: 110px;
+	background-color: blue;
+	color: white;
+
+}
+
+
+h1 {
+	padding: 30px;
+	margin: -30px auto;
+	color: white;
+}
+p {
+	float: right;
+}
+.satu button {
+	background-color: yellow;
+	color: white;
+}
+.dua {
+	width: 450px;
+	height: 400px;
+	margin-left: 35px;
+}
+h4 {
+	margin: -20px;
+	margin-left: -1px;
+}
+img	{
+	height: 150px;
+	width: 150px;
+	margin: 30px auto;
+}
+.tiga {
+	width: 400px;
+	float: right;
+	margin-top: -320px;
+}
+h3 {
+	margin-left: 10px;
+	font-size: 30px;
+}
+.main  {
+	float: left;
+	margin: -25px;
+	margin-left: 10px;
+}
+.seru {
+	float: left;
+}
+.tidak {
+	float: left;
+	margin: 1px;
+}
+.hiden {
+	display: block;
+	float: left;
+	margin: 40px;
+	margin-left: -177px;
+}
+
+.nama {
+	display: block;
+	float: left;
+	font-size: 20px;
+	margin: 70px;
+	margin-left: -213px;
+
+}
+.bagus {
+	float: left;
+	margin: 100px;
+	margin-left: -213px;
+}
+.oke {
+	float: left;
+	margin: 130px;
+	margin-left: -290px;
+	font-size: 20px;
+}
+.yes {
+	float: left;
+	margin: 160px;
+	margin-left: -297px;
+}
+.iya {
+	float: left;
+	margin: 140px;
+	margin-top: -57px;
+}
+h6 button {
+	float: left;
+	margin: 30px;
+	margin-left: -370px;
+	background-color: red;
+	color: white;
+	font-size: 30px;
+	font-family: inherit;
+	
+}

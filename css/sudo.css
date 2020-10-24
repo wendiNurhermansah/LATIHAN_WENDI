@@ -1,0 +1,13 @@
+	.hello {
+		color: yellow;
+	}
+
+	.hello hover {
+		color: red;
+		font-family: arial;
+		font-size: 20p;
+	}
+
+	.hello active {
+		font-style: italic;
+	}

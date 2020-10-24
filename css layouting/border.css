@@ -1,0 +1,8 @@
+div {
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	margin: 20px auto;
+	padding: 20px 30px 40px 50px;
+	border: 10px dashed pink;
+}
